@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: portfolio
+    env: node
+    buildCommand: pnpm install && pnpm run build
+    startCommand: node build/index.js
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: ORIGIN
+        value: https://portfolio-57kp.onrender.com
