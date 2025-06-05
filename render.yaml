@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: portfolio-app
-    env: node
-    buildCommand: npm install && npm run build
-    startCommand: node build
-    plan: starter
-    branch: main
-    region: oregon
