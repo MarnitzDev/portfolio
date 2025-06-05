@@ -6,12 +6,14 @@ export default defineConfig({
 	server: {
 		host: '0.0.0.0',
 		port: Number(process.env.PORT) || 3000,
-		strictPort: true
+		strictPort: true,
+		allowedHosts: ['portfolio-57kp.onrender.com', 'localhost']
 	},
 	preview: {
 		host: '0.0.0.0',
 		port: Number(process.env.PORT) || 3000,
-		strictPort: true
+		strictPort: true,
+		allowedHosts: ['portfolio-57kp.onrender.com', 'localhost']
 	},
 	optimizeDeps: {
 		exclude: ['@sveltejs/kit']
