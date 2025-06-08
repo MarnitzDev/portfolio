@@ -43,7 +43,9 @@
   <div class="space-y-12">
     {#each projects as project (project.id)}
       <div class="bg-white shadow-lg rounded-lg overflow-hidden" transition:fade>
-        <img src={project.imageUrl} alt={project.title} class="w-full h-64 object-cover" />
+       <div class="aspect-w-16 aspect-h-9 overflow-hidden">
+         <img src={project.imageUrl} alt={project.title} class="w-full h-full object-cover" />
+       </div>
         <div class="p-6">
           <h2 class="text-2xl font-semibold mb-2">{project.title}</h2>
           <p class="text-gray-600 mb-4">{project.description}</p>
