@@ -1,19 +1,27 @@
 <script>
     import { fade } from 'svelte/transition';
 
-    // Sample project data - replace with your actual projects
     const projects = [
     {
         id: 1,
         title: "TrackHub",
         description: "A comprehensive project management and time tracking application.",
         technologies: ["Nuxt.js", "Vue.js", "Node.js", "PostgreSQL", "TailwindCSS", "Pinia", "TypeScript"],
-        imageUrl: "/images/trackhub-project.jpg", // You'll need to add this image to your project
+        imageUrl: "/images/trackhub-project.jpg",
         githubUrl: "https://github.com/MarnitzDev/TrackHub",
         liveUrl: "https://trackhub.marnitzmalan.com/"
     },
     {
         id: 2,
+        title: "WatchHub",
+        description: "A movie and TV show tracking application with a modern interface.",
+        technologies: ["React", "Vite", "Supabase", "TailwindCSS", "React Query", "TypeScript"],
+        imageUrl: "/images/watchhub-project.jpg",
+        githubUrl: "https://github.com/MarnitzDev/WatchHub",
+        liveUrl: "https://watchhub.marnitzmalan.com/"
+    },
+    {
+        id: 3,
         title: "Weather Dashboard",
         description: "A responsive weather application using OpenWeatherMap API and Svelte.",
         technologies: ["Svelte", "OpenWeatherMap API", "Chart.js"],
