@@ -1,25 +1,25 @@
 <script>
-  import { fade } from 'svelte/transition';
+    import { fade } from 'svelte/transition';
 
-  // Sample project data - replace with your actual projects
-  const projects = [
+    // Sample project data - replace with your actual projects
+    const projects = [
     {
-      id: 1,
-      title: "E-commerce Platform",
-      description: "A full-stack e-commerce solution built with SvelteKit and Stripe integration.",
-      technologies: ["SvelteKit", "Node.js", "PostgreSQL", "Stripe"],
-      imageUrl: "/images/ecommerce-project.jpg",
-      githubUrl: "https://github.com/yourusername/ecommerce-project",
-      liveUrl: "https://ecommerce-project.com"
+        id: 1,
+        title: "TrackHub",
+        description: "A comprehensive project management and time tracking application.",
+        technologies: ["Nuxt.js", "Vue.js", "Node.js", "PostgreSQL", "TailwindCSS", "Pinia", "TypeScript"],
+        imageUrl: "/images/trackhub-project.jpg", // You'll need to add this image to your project
+        githubUrl: "https://github.com/MarnitzDev/TrackHub",
+        liveUrl: "https://trackhub.marnitzmalan.com/"
     },
     {
-      id: 2,
-      title: "Weather Dashboard",
-      description: "A responsive weather application using OpenWeatherMap API and Svelte.",
-      technologies: ["Svelte", "OpenWeatherMap API", "Chart.js"],
-      imageUrl: "/images/weather-dashboard.jpg",
-      githubUrl: "https://github.com/yourusername/weather-dashboard",
-      liveUrl: "https://weather-dashboard-demo.com"
+        id: 2,
+        title: "Weather Dashboard",
+        description: "A responsive weather application using OpenWeatherMap API and Svelte.",
+        technologies: ["Svelte", "OpenWeatherMap API", "Chart.js"],
+        imageUrl: "/images/weather-dashboard.jpg",
+        githubUrl: "https://github.com/yourusername/weather-dashboard",
+        liveUrl: "https://weather-dashboard-demo.com"
     },
     // Add more projects as needed
   ];
