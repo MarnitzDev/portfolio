@@ -10,21 +10,12 @@
   </main>
 </div>
 
-<style>
-  :global(body) {
-    font-family: 'Arial', sans-serif;
-    background-color: #ffffff;
-    color: #333333;
-    margin: 0;
-    padding: 0;
-  }
-
+<style lang="scss">
   .body-start {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
   }
-
   main {
     flex: 1;
     padding: 40px 20px;

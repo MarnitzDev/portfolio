@@ -16,7 +16,8 @@
       {#each navItems as item}
         <a
           href={item.href}
-          class="navigation-item {$page.url.pathname === item.href ? 'active' : ''}"
+          class="navigation-item"
+          class:active={$page.url.pathname === item.href}
         >
           {item.label}
         </a>
@@ -25,18 +26,43 @@
   </div>
 </header>
 
-<style>
+<style lang="scss">
+  $max-width: 1200px;
+  $primary-color: #333333;
+  $background-color: #ffffff;
+
   .navigation {
     padding: 42px 20px;
-    background-color: #ffffff;
-  }
+    background-color: $background-color;
 
-  .navigation-items {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
+    &-items {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: $max-width;
+      margin: 0 auto;
+    }
+
+    &-wrap {
+      display: flex;
+    }
+
+    &-item {
+      color: $primary-color;
+      text-decoration: none;
+      padding: 10px;
+      margin-left: 20px;
+      font-size: 18px;
+      transition: font-weight 0.3s ease;
+
+      &.active {
+        font-weight: 600;
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 
   .logo-link {
@@ -47,21 +73,6 @@
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
-  }
-
-  .navigation-wrap {
-    display: flex;
-  }
-
-  .navigation-item {
-    color: #333333;
-    text-decoration: none;
-    padding: 10px;
-    margin-left: 20px;
-    font-size: 18px;
-  }
-
-  .active {
-    font-weight: 600;
+    color: $primary-color;
   }
 </style>

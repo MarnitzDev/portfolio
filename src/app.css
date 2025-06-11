@@ -4,9 +4,17 @@
 
 body {
     @apply bg-gray-100 text-gray-900;
-    font-family: 'Inter Tight', sans-serif !important;
+    font-family: 'Inter Tight', sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    margin: 0;
+    padding: 0;
 }
 
 main {
     @apply container mx-auto px-4 py-8;
+}
+
+a:hover {
+    text-decoration: underline;
 }

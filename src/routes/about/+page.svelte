@@ -73,9 +73,16 @@
   </div>
 </div>
 
-<style>
+
+<style lang="scss">
+  $primary-color: #333;
+  $secondary-color: #777;
+  $background-color: #f8f8f8;
+  $text-color: #666;
+  $max-width: 1200px;
+
   .about-container {
-    max-width: 1200px;
+    max-width: $max-width;
     margin: 0 auto;
     padding: 60px 20px;
   }
@@ -92,10 +99,8 @@
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     margin-bottom: 40px;
-  }
 
-  @media (max-width: 768px) {
-    .info-grid {
+    @media (max-width: 768px) {
       grid-template-columns: 1fr;
     }
   }
@@ -104,24 +109,24 @@
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    background-color: #f8f8f8;
-  }
+    background-color: $background-color;
 
-  .info-item i {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 10px;
-  }
+    i {
+      font-size: 24px;
+      color: $primary-color;
+      margin-bottom: 10px;
+    }
 
-  .info-item h3 {
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 5px;
-  }
+    h3 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
 
-  .info-item p {
-    font-size: 16px;
-    color: #666;
+    p, a {
+      font-size: 16px;
+      color: $text-color;
+    }
   }
 
   .about-content {
@@ -129,45 +134,43 @@
     gap: 60px;
     margin-bottom: 40px;
     align-items: center;
+
+    @media (max-width: 768px) {
+      flex-direction: column-reverse;
+    }
   }
 
   .about-text {
     flex: 2;
-  }
 
-  .about-text p {
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 20px;
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
   }
 
   .about-image {
     flex: 1;
     max-width: 300px;
     margin: 0 auto;
-  }
 
-  .about-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+    @media (max-width: 768px) {
+      margin-bottom: 40px;
+      max-width: 250px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
   }
 
   .skills-section {
     max-width: 800px;
     margin: 0 auto;
     padding: 60px 20px;
-  }
-
-  @media (max-width: 768px) {
-    .about-content {
-      flex-direction: column-reverse;
-    }
-
-    .about-image {
-      margin-bottom: 40px;
-      max-width: 250px;
-    }
   }
 
   .skills-title {
@@ -182,41 +185,31 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-  }
 
-  .skills-icons i {
-    font-size: 48px;
-    color: #333;
-    transition: color 0.3s ease;
-  }
+    i {
+      font-size: 48px;
+      color: $secondary-color;
+      transition: color 0.3s ease;
 
-  .skills-icons i:hover {
-    color: #555;
+      &:hover {
+        color: $primary-color;
+      }
+    }
   }
 
   .social-icons {
     display: flex;
     justify-content: center;
     gap: 20px;
-  }
 
-  .social-icons a {
-    color: #333;
-    font-size: 24px;
-    transition: color 0.3s ease;
-  }
+    a {
+      color: $primary-color;
+      font-size: 24px;
+      transition: color 0.3s ease;
 
-  .social-icons a:hover {
-    color: #555;
-  }
-
-  @media (max-width: 768px) {
-    .about-content {
-      flex-direction: column-reverse;
-    }
-
-    .about-image {
-      margin-bottom: 40px;
+      &:hover {
+        color: $secondary-color;
+      }
     }
   }
 </style>
