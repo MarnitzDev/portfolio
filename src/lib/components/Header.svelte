@@ -2,30 +2,66 @@
   import { page } from '$app/stores';
 
   const navItems = [
-    { href: '/', label: 'Home' },
-    { href: '/projects', label: 'Projects' },
+    { href: '/', label: 'Work' },
     { href: '/about', label: 'About' },
-    { href: '/contact', label: 'Contact' },
   ];
 </script>
 
-<header class="bg-white shadow-md">
-  <div class="container mx-auto px-4 py-6 flex justify-between items-center">
-    <a href="/" class="text-2xl font-bold text-gray-800">Marnitz Malan</a>
-
-    <nav>
-      <ul class="flex space-x-6">
-        {#each navItems as item}
-          <li>
-            <a
-              href={item.href}
-              class="text-gray-600 hover:text-gray-900 transition-colors duration-200 {$page.url.pathname === item.href ? 'font-semibold' : ''}"
-            >
-              {item.label}
-            </a>
-          </li>
-        {/each}
-      </ul>
+<header class="navigation">
+  <div class="navigation-items">
+    <a href="/" class="logo-link">
+      <h4 class="heading-4">Marnitz Malan</h4>
+    </a>
+    <nav class="navigation-wrap">
+      {#each navItems as item}
+        <a
+          href={item.href}
+          class="navigation-item {$page.url.pathname === item.href ? 'active' : ''}"
+        >
+          {item.label}
+        </a>
+      {/each}
     </nav>
   </div>
 </header>
+
+<style>
+  .navigation {
+    padding: 42px 20px;
+    background-color: #ffffff;
+  }
+
+  .navigation-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .logo-link {
+    text-decoration: none;
+  }
+
+  .heading-4 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  .navigation-wrap {
+    display: flex;
+  }
+
+  .navigation-item {
+    color: #333333;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+
+  .active {
+    font-weight: 600;
+  }
+</style>

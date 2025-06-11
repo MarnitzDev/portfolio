@@ -9,7 +9,7 @@
         technologies: ["Nuxt.js", "Vue.js", "Node.js", "PostgreSQL", "TailwindCSS", "Pinia", "TypeScript"],
         imageUrl: "/images/trackhub-project.jpg",
         githubUrl: "https://github.com/MarnitzDev/TrackHub",
-        liveUrl: "https://trackhub.marnitzmalan.com/"
+        liveUrl: "https://trackhub-3o4v.onrender.com"
     },
     {
         id: 2,
@@ -18,7 +18,7 @@
         technologies: ["React", "Vite", "Supabase", "TailwindCSS", "React Query", "TypeScript"],
         imageUrl: "/images/watchhub-project.jpg",
         githubUrl: "https://github.com/MarnitzDev/WatchHub",
-        liveUrl: "https://watchhub.marnitzmalan.com/"
+        liveUrl: "https://watchhub-zs0q.onrender.com"
     },
     {
         id: 3,

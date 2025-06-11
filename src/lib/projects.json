@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "TrackHub",
+    "description": "A comprehensive project management and time tracking application.",
+    "technologies": ["Nuxt.js", "Vue.js", "Node.js", "PostgreSQL", "TailwindCSS", "Pinia", "TypeScript"],
+    "imageUrl": "/images/trackhub-project.jpg",
+    "githubUrl": "https://github.com/MarnitzDev/TrackHub",
+    "liveUrl": "https://trackhub-3o4v.onrender.com"
+  },
+  {
+    "id": 2,
+    "title": "WatchHub",
+    "description": "A movie and TV show tracking application with a modern interface.",
+    "technologies": ["React", "Vite", "Supabase", "TailwindCSS", "React Query", "TypeScript"],
+    "imageUrl": "/images/watchhub-project.jpg",
+    "githubUrl": "https://github.com/MarnitzDev/WatchHub",
+    "liveUrl": "https://watchhub-zs0q.onrender.com"
+  },
+  {
+    "id": 3,
+    "title": "Weather Dashboard",
+    "description": "A responsive weather application using OpenWeatherMap API and Svelte.",
+    "technologies": ["Svelte", "OpenWeatherMap API", "Chart.js"],
+    "imageUrl": "/images/weather-dashboard.jpg",
+    "githubUrl": "https://github.com/yourusername/weather-dashboard",
+    "liveUrl": "https://weather-dashboard-demo.com"
+  }
+]
