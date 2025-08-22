@@ -47,27 +47,27 @@
   <div class="skills-section">
     <h2 class="skills-title">Skills & Technologies</h2>
     <div class="skills-icons">
-      <i class="devicon-vuejs-plain" title="Vue.js"></i>
-      <i class="devicon-nuxtjs-plain" title="Nuxt.js"></i>
+      <i class="devicon-vuejs-plain colored" title="Vue.js"></i>
+      <i class="devicon-nuxtjs-plain colored" title="Nuxt.js"></i>
       <i class="devicon-react-original" title="React"></i>
       <i class="devicon-nextjs-original" title="Next.js"></i>
-      <i class="devicon-angularjs-plain" title="Angular"></i>
-      <i class="devicon-svelte-plain" title="Svelte"></i>
-      <i class="devicon-javascript-plain" title="JavaScript"></i>
-      <i class="devicon-typescript-plain" title="TypeScript"></i>
-      <i class="devicon-nodejs-plain" title="Node.js"></i>
-      <i class="devicon-html5-plain" title="HTML5"></i>
-      <i class="devicon-css3-plain" title="CSS3"></i>
-      <i class="devicon-jquery-plain" title="jQuery"></i>
+      <i class="devicon-angularjs-plain colored" title="Angular"></i>
+      <i class="devicon-svelte-plain colored" title="Svelte"></i>
+      <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+      <i class="devicon-typescript-plain colored" title="TypeScript"></i>
+      <i class="devicon-nodejs-plain colored" title="Node.js"></i>
+      <i class="devicon-html5-plain colored" title="HTML5"></i>
+      <i class="devicon-css3-plain colored" title="CSS3"></i>
+      <i class="devicon-jquery-plain colored" title="jQuery"></i>
       <i class="devicon-sass-original" title="Sass"></i>
-      <i class="devicon-php-plain" title="PHP"></i>
-      <i class="devicon-laravel-plain" title="Laravel"></i>
-      <i class="devicon-mysql-plain" title="MySQL"></i>
-      <i class="devicon-postgresql-plain" title="PostgreSQL"></i>
-      <i class="devicon-git-plain" title="Git"></i>
-      <i class="devicon-gitlab-plain" title="GitLab"></i>
-      <i class="devicon-docker-plain" title="Docker"></i>
-      <i class="devicon-jira-plain" title="Jira"></i>
+      <i class="devicon-php-plain colored" title="PHP"></i>
+      <i class="devicon-laravel-plain colored" title="Laravel"></i>
+      <i class="devicon-mysql-plain colored" title="MySQL"></i>
+      <i class="devicon-postgresql-plain colored" title="PostgreSQL"></i>
+      <i class="devicon-git-plain colored" title="Git"></i>
+      <i class="devicon-gitlab-plain colored" title="GitLab"></i>
+      <i class="devicon-docker-plain colored" title="Docker"></i>
+      <i class="devicon-jira-plain colored" title="Jira"></i>
     </div>
   </div>
 </div>
@@ -77,6 +77,7 @@
   $secondary-color: #777;
   $background-color: #f8f8f8;
   $text-color: #666;
+  $accent-color: #3498db;
   $max-width: 1200px;
 
   .about-container {
@@ -126,9 +127,14 @@
       margin-bottom: 5px;
     }
 
-    p, a {
+    p {
       font-size: 16px;
       color: $text-color;
+    }
+
+    a {
+      font-size: 16px;
+      color: $accent-color;
     }
   }
 
@@ -210,7 +216,6 @@
 
     i {
       font-size: 36px;
-      color: $secondary-color;
       transition: color 0.3s ease;
 
       @media (min-width: 768px) {
