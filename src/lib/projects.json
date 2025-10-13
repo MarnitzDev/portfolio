@@ -1,20 +1,29 @@
 [
   {
+    "id": 2,
+    "title": "Quiz AI",
+    "description": "A modern quiz application powered by AI for generating and evaluating questions.",
+    "technologies": ["Preact", "Express.js", "OpenAI API", "Vite", "TypeScript", "TailwindCSS"],
+    "imageUrl": "/images/quizai-project.jpg",
+    "githubUrl": "https://github.com/MarnitzDev/quiz_ai_fe",
+    "liveUrl": "https://quizai.marnitzmalan.com/"
+  },
+  {
     "id": 1,
+    "title": "WatchHub",
+    "description": "A movie and TV show tracking application with a modern interface.",
+    "technologies": ["React", "TMDb API", "TailwindCSS", "React Query", "TypeScript", "Vite"],
+    "imageUrl": "/images/watchhub-project.jpg",
+    "githubUrl": "https://github.com/MarnitzDev/WatchHub",
+    "liveUrl": "https://watchhub.marnitzmalan.com/"
+  },
+  {
+    "id": 3,
     "title": "StockFlow",
     "description": "A comprehensive inventory management system for small to medium-sized businesses.",
     "technologies": ["Laravel", "Vue.js", "PrimeVue", "Tailwind CSS", "PostgreSQL", "Axios", "Vite"],
     "imageUrl": "/images/stockflow-project.jpg",
     "githubUrl": "https://github.com/MarnitzDev/StockFlow",
     "liveUrl": "https://stockflow.marnitzmalan.com/"
-  },
-  {
-    "id": 2,
-    "title": "WatchHub",
-    "description": "A movie and TV show tracking application with a modern interface.",
-    "technologies": ["React", "Vite", "Supabase", "TailwindCSS", "React Query", "TypeScript"],
-    "imageUrl": "/images/watchhub-project.jpg",
-    "githubUrl": "https://github.com/MarnitzDev/WatchHub",
-    "liveUrl": "https://watchhub.marnitzmalan.com/"
   }
 ]

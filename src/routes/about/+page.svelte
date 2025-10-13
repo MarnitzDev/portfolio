@@ -19,7 +19,7 @@
     </div>
     <div class="info-item">
       <h3>Contact</h3>
-      <a href="mailto:malanmarnitz@gmail.com">malanmarnitz@gmail.com</a>
+      <a href="mailto:support@marnitzmalan.com">support@marnitzmalan.com</a>
     </div>
   </div>
 
