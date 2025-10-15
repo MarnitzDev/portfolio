@@ -11,7 +11,7 @@
     {
     "id": 2,
     "title": "SmartDinner",
-  "description": "AI-powered, multi-step recipe suggestions with ingredient filters and a fast, mobile-friendly UI.",
+    "description": "AI-powered, multi-step recipe suggestions with ingredient filters and a fast, mobile-friendly UI.",
     "technologies": ["Angular 20", "TypeScript", "SCSS", "fastify"],
     "imageUrl": "/images/smartdinner-project.jpg",
     "githubUrl": "https://github.com/MarnitzDev/smart-dinner-fe",
