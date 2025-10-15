@@ -1,6 +1,6 @@
 [
   {
-    "id": 2,
+    "id": 1,
     "title": "Quiz AI",
     "description": "A modern quiz application powered by AI for generating and evaluating questions.",
     "technologies": ["Preact", "Express.js", "OpenAI API", "Vite", "TypeScript", "TailwindCSS"],
@@ -8,8 +8,17 @@
     "githubUrl": "https://github.com/MarnitzDev/quiz_ai_fe",
     "liveUrl": "https://quizai.marnitzmalan.com/"
   },
+    {
+    "id": 2,
+    "title": "SmartDinner",
+  "description": "AI-powered, multi-step recipe suggestions with ingredient filters and a fast, mobile-friendly UI.",
+    "technologies": ["Angular 20", "TypeScript", "SCSS", "Standalone Components", "Signals", "Railway (deployment)"],
+    "imageUrl": "/images/smartdinner-project.jpg",
+    "githubUrl": "https://github.com/MarnitzDev/smart-dinner-fe",
+    "liveUrl": "https://smartdinner.marnitzmalan.com/"
+  },
   {
-    "id": 1,
+    "id": 3,
     "title": "WatchHub",
     "description": "A movie and TV show tracking application with a modern interface.",
     "technologies": ["React", "TMDb API", "TailwindCSS", "React Query", "TypeScript", "Vite"],
@@ -18,7 +27,7 @@
     "liveUrl": "https://watchhub.marnitzmalan.com/"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "StockFlow",
     "description": "A comprehensive inventory management system for small to medium-sized businesses.",
     "technologies": ["Laravel", "Vue.js", "PrimeVue", "Tailwind CSS", "PostgreSQL", "Axios", "Vite"],

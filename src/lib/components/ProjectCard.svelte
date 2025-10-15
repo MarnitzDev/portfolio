@@ -44,7 +44,7 @@
   }
 
   .image-container {
-    @apply relative pb-[45%] overflow-hidden;
+    @apply relative pb-[55%] overflow-hidden;
     img {
       @apply absolute inset-0 w-full h-full object-cover;
     }
