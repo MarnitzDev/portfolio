@@ -12,17 +12,6 @@
 <div class="about-container" in:fade>
   <h1 class="about-title">About Me</h1>
 
-  <div class="info-grid">
-    <div class="info-item">
-      <h3>Location</h3>
-      <p>Gauteng, South Africa</p>
-    </div>
-    <div class="info-item">
-      <h3>Contact</h3>
-      <a href="mailto:support@marnitzmalan.com">support@marnitzmalan.com</a>
-    </div>
-  </div>
-
   <div class="about-content">
     <div class="about-image">
       <img src="/images/profile-pic.jpg" alt="Marnitz Malan" />
